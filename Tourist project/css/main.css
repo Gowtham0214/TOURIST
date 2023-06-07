@@ -1,0 +1,536 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#a1{
+    font-family: sans-serif;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #373d49f9;
+    color: #ffffff;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    top: 0px;
+    z-index: 450000;
+}
+#a9{
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 18px;
+}
+#a1 a{
+    text-decoration: none;
+}
+#a2,#a3,#a6,#a7,#a8{
+    border: 1px solid black;
+    /* line-height:60px; */
+}
+#ab1{
+    background-color: #676D79;
+    height: 45px;
+    border-radius: 7px;
+}
+#a2{
+    border-radius: 5px;
+    margin-left: 25px;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.ab{
+    /* border: 1px solid black; */
+    line-height:40px;
+    text-align: center;
+    color: #ffffff;
+}
+.ab:hover{
+    background-color: #5b5e62;
+    border-radius: 7px;
+    height: 45px;
+}
+#ab2,#ab1,#ab4{
+    width: 85px;
+}
+#ab3{
+    width: 120px;
+}
+#a3{
+    margin-left: 7px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+#a3:hover,#a7:hover{
+    border-color: rgb(255, 59, 59);
+    color: rgb(255, 59, 59);
+}
+#a6{
+    margin-left: 365px;
+    border: 1px solid black;
+    width: 160px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+#a4{
+    color: #ffffff;
+    /* border: 1px solid black; */
+    padding: 3px 6px;
+    background-color: blue;
+    border-radius:4px;
+    font-size: small;
+}
+#a5{
+    background-color: rgb(50, 138, 253);
+    color: #ffffff;
+    /* border: 1px solid black; */
+    padding: 3px 10px;
+    margin-left: 14px;
+    border-radius: 30px;
+    font-size: small;
+}
+#a7{
+    margin-left: 7px;
+    height: 45px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 45px;
+    padding: 0px 23px;
+    border-radius:4px;
+}
+#a8{
+    color: #ffffff;
+    line-height: 45px;
+    height: 45px;
+    margin-left: 7px;
+    width: 180px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #e7746f;
+    font-size: 13.5px;
+}
+#b1{
+    background-color: #ffffff;
+}
+#b2{
+    text-align: center;
+    margin-top: 100px;
+}
+#b3{
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 30px;
+}
+.item{
+    text-decoration: none;
+    /* border: 1px solid black; */
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #A1A2A1;
+    
+}
+.item:hover{
+    background-color: #D52349;
+    color: #ffffff;
+}
+#b4{
+    margin-top: 50px;
+    height: 430px;
+    border: 1px solid white;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/172/921/248/nature-water-sea-travel-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#b5
+{
+    border: 1px solid black;
+    height: 165px;
+    width: 650px;
+    margin: 130px 350px;
+    background-color: #231F22;
+    text-align: center;
+    color: white;
+}
+#b6{
+    color: rgb(213, 35, 73);
+    font-size: 20px;
+}
+#b7{
+    border: 1px solid  #231F22;
+    margin-top: 20px;
+}
+#c1{
+    /* border: 1px solid green; */
+    background-color: #F7F7F7;
+    /* background-color: pink; */
+}
+.hr-lines{
+    position: relative;
+    max-width: 1140px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  .hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 450px;
+    background-color:#ccc;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 450px;
+    background-color:#ccc; 
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+#grid-container{
+    margin: 60px 100px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 560px 560px;
+    gap: 50px;
+}
+.grid-item{
+    /* border: 1px solid red; */
+    background-color: #ffffff;
+}
+#c2{
+    background-image: url("/img/tanjore.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#c3{
+    background-image: url("/img/mahabalipuram.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 42%;
+}
+#c4{
+    background-image: url("/img/meenatchi.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 42%;
+}
+#c5{
+    background-image: url("/img/marina-beach.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 42%;
+}
+#c6{
+    background-image: url("/img/isha.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 42%;
+}
+#c7{
+    background-image: url("/img/kannya\ kumari.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 42%;
+}
+#c8{
+    margin-top: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 25px;
+}
+#c8>a{
+   
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 90px;
+    text-align: center;
+    color: white;
+    background-color: #252122;
+}
+#c8>a:hover{
+    background-color: #464245;
+}
+#dgrid-container{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-rows: 640px;
+    grid-template-columns: 550px 550px;
+   justify-content: center;
+   align-items: center;
+   column-gap: 50px;
+   height: 700px;
+}
+.igrid-item{
+    /* border: 1px solid green;   */
+    background-color: #ffffff;
+}
+#d1{
+    background-image: url("/img/tower.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 45%;
+}
+#d5{
+    background-image: url("/img/beach.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 45%;
+}
+.dd{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#d2{
+    margin-top: 320px;
+}
+#d3{
+    line-height: 29px;
+}
+#d4{
+    border: 1px solid black;
+}
+#z3{
+    /* border: 1px solid darkgreen; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+  
+}
+.z{
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+    color: white;
+    /* color: white; */
+}
+.x{
+    margin: 20px;
+}
+#z6{
+    background-color: #D52349;
+}
+#z7{
+    background-color: #252122;
+}
+
+#z7,#z5{
+    /* border: 1px solid black; */
+    height: 50px;
+    line-height: 50px;
+}
+#k1{
+    background-color: #F7F7F7;
+}
+
+/* Footer */
+
+#s1grid-container{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 340px 340px 360px;
+    grid-template-rows: 640px 610px 200px;
+    background-color: #252122;
+    column-gap: 50px;
+    justify-content: center;
+   
+}
+.s2grid-item{
+    margin-top: 60px;
+}
+.grid>p{
+    font-size: 14.667px;
+}
+#s2{
+    /* border: 1px solid red; */
+    grid-column: 1/3;
+    /* margin-left: 110px; */
+}
+#s3{
+    /* border: 1px solid green; */
+    line-height: 30px;
+}
+.grid{
+    border-bottom: 1px solid rgba(255, 255, 225, 0.05);
+    padding-bottom: 10px;
+}
+.grid>h4,.s2grid-item>h2{
+    color: #ffffff;
+}
+.grid>p,.s2grid-item>p{
+    color: #858484;
+}
+#s4{
+    text-decoration: none;
+    /* border: 1px solid black; */
+    padding: 15px 39px;
+    background-color: #D52349;
+    border-radius: 7px;
+    color: #ffffff;
+}
+
+#s5,#s6{
+    /* border: 1px solid aqua; */
+    color: #ffffff;
+    
+    padding-right: 20px;
+}
+#s5 a,#s6 a{
+    color: #858484;
+    font-size: 14.667px;
+}
+#s5 a:hover{
+    text-decoration: none;
+}
+#s6{
+   /* border: 1px solid green; */
+    color: #ffffff;
+    padding-right: 20px;
+}
+/* #s7{
+   border: 1px solid blue;
+} */
+#x0>h2{
+    color: #ffffff;
+
+}
+#s2>h2{
+    margin-bottom: 40px;
+  
+}
+#s4:hover{
+    background-color: #df3459;
+}
+.par{
+    /* border: 1px solid white; */
+    padding-bottom: 20px;
+    
+    /* border-bottom: 1px solid  rgba(255, 255, 225, 0.05);
+    */
+}
+.par1{
+    line-height: 70px;
+    /* border: 1px solid green; */
+    padding-right: 5px;
+     border-bottom: 1px solid  rgba(255, 255, 225, 0.05);
+}
+/* #x2{
+    margin-top: 25px;
+} */
+#r5,#r1{
+    color: #888888;
+}
+#r3{
+    color: #C4376B;
+}
+#r2{
+    color: #2DAAE4;
+}
+#r4{
+    color: #2B4661;
+}
+.s2grid-item a:before{
+    color: #ccc;
+}
+#x1{
+  display: flex;
+ column-gap: 19px;
+ /* border: 1px solid blue; */
+ padding-top: 40px;
+  
+}
+
+
+/* ICONS */
+#y1{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 58px;
+    border-bottom: 1px solid  rgba(255, 255, 225, 0.05);
+    padding-bottom: 10px;
+   
+}
+#y3{
+    /* border: 1px solid green; */
+    width: 200px;
+    line-height: 28px;
+    color: #858484;
+}
+#y2,#u2{
+    color: #ffffff;
+}
+#u1{
+    /* border: 1px solid violet; */
+    display: flex;
+    column-gap: 90px;
+    border-bottom: 1px solid  rgba(255, 255, 225, 0.05);
+    padding-bottom: 10px;
+}
+#u3{
+    padding-top: 20px;
+  
+}
+#u3>a{
+    color: #858484;
+}
+#v1{
+    display: flex;
+    padding-bottom: 10px;
+    column-gap: 80px;
+    padding-top: 10px;
+}
+#v2{
+    color: #FFFFfF;
+}
+#v3{
+    padding-top: 7px;
+    color: #858484;
+}
+
+/* footer */
+
+#aa1{
+    /* border: 1px solid red; */
+   padding-top: 50px;
+}
+#as1 p{
+     color: #858484;
+
+}
+#aa1{
+    grid-column: 1/4;
+}
+#as1{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+   column-gap: 40px;
+   margin-left: 220px;
+   margin-right: 150px;
+   font-size: 14.667px;
+   background-color: #302C2D;
+   padding: 7px 0px;
+}
+.asas{
+    border-right: 1px solid rgba(255, 255, 255, 0.05);;
+    padding-right: 20px;
+    text-align: center;
+}
+#as1 a:hover{
+    text-decoration: none;
+}
